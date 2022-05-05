@@ -1,0 +1,107 @@
+:root {
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 18px;
+    background-color: var(--Almost-White);
+    font-family: 'Epilogue', sans-serif;
+}
+.logo-hamburguesa-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.nav-mobile {
+    color: var(--Medium-Gray);
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    font-size: 16px;
+}
+.nav-mobile a {
+    text-decoration: none;
+    color: var(--Medium-Gray);
+}
+.nav-mobile ul li {
+    list-style: none;
+}
+.hamburguesa-desplegado {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--Almost-White);
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 50%;
+    height: 100vh;
+    padding: 25px;
+    align-items:baseline;
+}
+.hamburguesa-desplegado ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-close {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+    .hamburguesa-desplegado-hidden {
+        display: none;
+    }
+    .close-hamburguesa {
+        display: none;
+    }
+    .menu-hamburguesa-hidden {
+    display: none;
+    }
+.menu-features {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    gap: 20px;
+}
+    .menu-features-hidden {
+        display: none;
+    }
+    .flecha-abajo-features-hidden {
+        display: none;
+    }
+    .flecha-arriba-features-hidden {
+        display: none;
+    }
+    .flecha-abajo-company-hidden {
+        display: none;
+    }
+    .flecha-arriba-company-hidden {
+        display: none;
+    }
+.menu-company {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    gap: 20px;
+}
+    .menu-company-hidden {
+        display: none;
+    }
+.form-menu-hamburguesa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.image-hero-mobile img{
+    width: 450px;
+    height: auto;
+}
