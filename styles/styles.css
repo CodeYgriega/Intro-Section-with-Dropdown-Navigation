@@ -13,6 +13,9 @@ body {
     background-color: var(--Almost-White);
     font-family: 'Epilogue', sans-serif;
 }
+.desktop{
+    display: none;
+}
 .logo-hamburguesa-mobile {
     display: flex;
     justify-content: space-between;
